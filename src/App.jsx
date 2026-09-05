@@ -4,7 +4,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-
+import Certificate from './components/Certifications'
 function App() {
   return (
     <div>
@@ -14,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Certificate />
     </div>
   )
 }
